@@ -87,13 +87,13 @@ function App() {
             <div className="task-content">{task.title}</div>
             <div className="task-actions">
               <button className="edit-btn" onClick={() => handleEdit(task)}>
-                <FaPencilAlt /> {/* Pencil icon */}
+                <FaPencilAlt />
               </button>
               <button
                 className="delete-btn"
                 onClick={() => handleDelete(task.id)}
               >
-                <FaTrash /> {/* Trash icon */}
+                <FaTrash />
               </button>
             </div>
           </li>
